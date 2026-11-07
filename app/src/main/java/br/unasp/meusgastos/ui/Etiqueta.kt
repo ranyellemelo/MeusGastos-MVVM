@@ -39,15 +39,3 @@ fun Etiqueta(
             )
     )
 }
-
-@androidx.compose.ui.tooling.preview.Preview(
-    showBackground = true
-)
-@Composable
-private fun EtiquetaPreview() {
-    Etiqueta(
-        texto = "Alimentação",
-        selecionada = true,
-        onClick = {}
-    )
-}
